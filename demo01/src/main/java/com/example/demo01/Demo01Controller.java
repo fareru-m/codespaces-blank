@@ -9,5 +9,8 @@ public class Demo01Controller {
     String index(){
         return "index"; //index.htmlを編集して返す
     }
-    
+    @RequestMapping("/about")
+    String about(){
+        return "about";
+    }
 }
